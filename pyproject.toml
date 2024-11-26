@@ -43,6 +43,9 @@ Documentation = "https://github.com/Benjamin Wheeler/popcornbot#readme"
 Issues = "https://github.com/Benjamin Wheeler/popcornbot/issues"
 Source = "https://github.com/Benjamin Wheeler/popcornbot"
 
+[project.scripts]
+popcornbot = "popcornbot.main:main"
+
 [tool.hatch.version]
 path = "src/popcornbot/__about__.py"
 
